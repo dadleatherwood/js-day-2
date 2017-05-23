@@ -8,7 +8,7 @@ function scrollToY(direction, yPos, increment) {
     }
     scrolling = true;
     if (!increment) {
-        increment = (yPos - window.scrollY) / 20.0 
+        increment = (yPos - window.scrollY) / 20.0
     }
     if ((direction === '+' && window.scrollY < yPos) || (direction === '-' && window.scrollY > yPos)) {
         setTimeout(function() {
@@ -87,4 +87,4 @@ function sampleDebugging() {
     }
 }
 // Uncomment the line below to see the debugger in action.
-// sampleDebugging()
+//sampleDebugging()
